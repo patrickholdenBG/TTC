@@ -1,0 +1,81 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# CLIENT DEPENDENCIES
+/client/node_modules
+/client/.pnp
+/client/.pnp.js
+
+# testing
+/client/coverage
+
+# next.js
+/client/.next/
+/client/out/
+
+# production
+/client/build
+
+# misc
+/client/.DS_Store
+/client/*.pem
+
+# debug
+/client npm-debug.log*
+/client yarn-debug.log*
+/client yarn-error.log*
+
+# local env files
+/client/.env*.local
+
+# vercel
+/client/.vercel
+
+# typescript
+/client/*.tsbuildinfo
+/client/next-env.d.ts
+
+# SERVER DEPENDENCIES
+/server/node_modules/
+
+# TS build
+/server/dist/
+
+# Env
+/server/.env
+/server/.log
+
+# Redis
+/server/dump.rdb
+
+# Ignore npm lock file
+/server/package-lock.json
+
+# IDE
+/server/.vscode/
+/server/.idea/
+
+# JS Compilation
+/server/*.js
+
+# Build artifacts
+/server/build/
+
+# MacOS
+/server/.DS_Store
+
+# caches
+/server/.eslintcache/
+/server/.prettier/
+/server/.tsconfig.tsbuildinfo
+
+# Nodemon debug
+/server/nodemon-debug.log
+
+# VSC settings
+/server/.vscode/settings.json
+
+# config files
+/server/.eslintrc.js
+/server/.prettierrc.js
+/server/tsconfig.json
+/server/nodemon.json
