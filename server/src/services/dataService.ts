@@ -9,7 +9,6 @@ const api = axios.create({
 // Fetch data from the external API
 const apiRequest = async <T>(config: AxiosRequestConfig): Promise<T> => {
   try {
-    console.log(config)
     const response = await api(config);
     return response.data;
   } catch (error) {
